@@ -100,7 +100,7 @@ common
     content:'';
     position: absolute;
     display: inline-block;
-    background-image: url(../../images/arrow-blue.svg);
+    background-image: url(../images/arrow-blue.svg);
     background-repeat: no-repeat;
     background-size: contain;
     width: 2.9rem;
@@ -115,7 +115,7 @@ common
         background-color: #3EB6CF;
     }
     .btn1:hover::before {
-        background-image: url(../../images/arrow-white.svg);
+        background-image: url(../images/arrow-white.svg);
         right: 2.3rem;
     }
 }
@@ -436,7 +436,7 @@ header
     .mobile-tel::before {
         content: '';
         display: inline-block;
-        background-image: url(../../images/Icon\ awesome-phone-alt.svg);
+        background-image: url(../images/Icon\ awesome-phone-alt.svg);
         background-repeat: no-repeat;
         background-size: contain;
         width: 2.3rem;
@@ -459,8 +459,6 @@ header
         height: 3.0rem;
     }
 }
-
-@charset "UTF-8";
 
 /*============================
 fv
@@ -508,7 +506,7 @@ fv
 		content: '';
 		position: absolute;
 		display: inline-block;
-		background-image: url(../../images/scroll.svg);
+		background-image: url(../images/scroll.svg);
 		background-repeat: no-repeat;
 		background-size: contain;
 		width: 1.7rem;
@@ -571,13 +569,13 @@ event
 
 /* 前の矢印 */
 .prev::before {
-    background-image: url(../../images/arrow-black.svg);
+    background-image: url(../images/arrow-black.svg);
     transform: rotate(180deg);
     left: 10vw;
 }
 /* 次の矢印 */
 .next::before {
-    background-image: url(../../images/arrow-black.svg);
+    background-image: url(../images/arrow-black.svg);
     right: 10vw;
 }
 .event-imgbox {
@@ -771,7 +769,7 @@ achievement
 ============================*/
 #achievement {
     padding: 8.0rem 0;
-    background-image: url(../../images/achievement-bg_cp.jpg);
+    background-image: url(../images/achievement-bg_cp.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -792,7 +790,7 @@ achievement
 @media screen and (max-width: 768px){
 	#achievement {
 		padding: 5.0rem 0;
-		background-image: url(../../images/sp/achievement-bg-sp_cp.jpg);
+		background-image: url(../images/sp/achievement-bg-sp_cp.jpg);
 		aspect-ratio: 375 / 531;
 	}
 	.achievement-date {
@@ -1042,7 +1040,7 @@ news
 contact
 ============================*/
 #contact {
-    background-image: url(../../images/contact-bg_cp.jpg);
+    background-image: url(../images/contact-bg_cp.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1095,12 +1093,12 @@ contact
     transition: .3s;
 }
 .contact-btn1::before {
-    background-image: url(../../images/Icon\ material-event-available.svg);
+    background-image: url(../images/Icon\ material-event-available.svg);
     width: 2.6rem;
     height: 2.6rem;
 }
 .contact-btn2::before {
-    background-image: url(../../images/Icon\ material-mail-outline.svg);
+    background-image: url(../images/Icon\ material-mail-outline.svg);
     width: 3.0rem;
     height: 2.6rem;
 }
@@ -1116,7 +1114,7 @@ contact
 .tel-num::before {
     content: '';
     display: inline-block;
-    background-image: url(../../images/Icon\ awesome-phone-alt.svg);
+    background-image: url(../images/Icon\ awesome-phone-alt.svg);
     background-repeat: no-repeat;
     background-size: contain;
     width: 3.6rem;
@@ -1135,7 +1133,7 @@ contact
         color: #333;
     }
     .contact-btn1:hover::before {
-        background-image: url(../../images/Icon\ material-event-available-black.svg.);
+        background-image: url(../images/Icon\ material-event-available-black.svg.);
     }
     .contact-btn2:hover {
         background-color: #fff;
@@ -1143,12 +1141,12 @@ contact
         color: #3EB6CF;
     }
     .contact-btn2:hover::before {
-        background-image: url(../../images/Icon\ material-mail-outline-turquoise.svg);
+        background-image: url(../images/Icon\ material-mail-outline-turquoise.svg);
     }
 }
 @media screen and (max-width: 768px){
     #contact {
-        background-image: url(../../images/sp/contact-bg-sp_cp.jpg);
+        background-image: url(../images/sp/contact-bg-sp_cp.jpg);
         height: 21.3rem;
     }
     #contact .container {
@@ -1243,7 +1241,7 @@ footer
     display: inline-block;
     width: 0.5rem;
     height: 1.1rem;
-    background-image: url(../../images/footer-arrow.svg);
+    background-image: url(../images/footer-arrow.svg);
     background-repeat: no-repeat;
     background-size: contain;
 }
